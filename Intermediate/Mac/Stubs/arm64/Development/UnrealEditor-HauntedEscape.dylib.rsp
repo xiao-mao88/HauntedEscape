@@ -1,0 +1,40 @@
+-fdiagnostics-absolute-paths
+-fdiagnostics-color
+-L/usr/lib/swift
+-arch arm64
+-isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+-target arm64-apple-macos14.00
+-dead_strip
+-dynamiclib
+-headerpad_max_install_names
+-current_version 4753.73.91
+-compatibility_version 5.7.0
+-rpath @loader_path/ -rpath @executable_path/
+-undefined dynamic_lookup
+-Wl,-no_fixup_chains
+-install_name "@rpath/UnrealEditor-HauntedEscape.dylib"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscapeCharacter.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscape.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscapeCameraManager.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscapeGameMode.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscapePlayerController.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterPlayerController.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterGameMode.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterCharacter.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterBulletCounterUI.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterUI.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterProjectile.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterWeaponHolder.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterWeapon.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterPickup.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/EnvQueryContext_Target.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterNPCSpawner.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterNPC.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterAIController.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterStateTreeUtility.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HorrorPlayerController.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HorrorGameMode.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HorrorCharacter.cpp.o"
+"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HorrorUI.cpp.o"
+-o "/Users/laurenli/Documents/HauntedEscape/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-HauntedEscape.dylib"
