@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		EA334C8C126C2CCF25F6CB19 = {isa = PBXBuildFile; fileRef = EC5879CCEF96DA4F50A89167; }; /* HauntedEscape.cpp */
+		4461C8FEA769FADB25232834 = {isa = PBXBuildFile; fileRef = 712B3ABF092BA4AD3BAAA165; }; /* HauntedEscapeCameraManager.cpp */
+		A658C7799F1C5B40EF29BFC7 = {isa = PBXBuildFile; fileRef = A55795581C63EE34276812DC; }; /* HauntedEscapeCharacter.cpp */
+		DC51A47B4311F05E01141CA5 = {isa = PBXBuildFile; fileRef = 1ADCCB1784A7DB7B577B1132; }; /* HauntedEscapeGameMode.cpp */
+		CFDB4B8DAEEC71E939238407 = {isa = PBXBuildFile; fileRef = DD81188C4EEAD37C4722D6A2; }; /* HauntedEscapePlayerController.cpp */
+		BE7932AE242EAC09CAB8BE67 = {isa = PBXBuildFile; fileRef = C87980151B53C798233E4FB7; }; /* HorrorCharacter.cpp */
+		A4E94F7D878A5AB547BCDAA4 = {isa = PBXBuildFile; fileRef = 81E9C04E22C661AC6D91FAD7; }; /* HorrorGameMode.cpp */
+		B9F5920C9F616B8F71D474B3 = {isa = PBXBuildFile; fileRef = 88054C752399F6137BCD4671; }; /* HorrorPlayerController.cpp */
+		6DDF452E43A4117F2A7B9746 = {isa = PBXBuildFile; fileRef = EF6F563701F0FC0C818EAEC5; }; /* HorrorUI.cpp */
+		9F3F516C0C120A862EA7760D = {isa = PBXBuildFile; fileRef = 94DD69F96C7DCB7006E1A13E; }; /* EnvQueryContext_Target.cpp */
+		5941FE253E318F9087EDDD65 = {isa = PBXBuildFile; fileRef = 4BEBEA314AC1DE12974CCF88; }; /* ShooterAIController.cpp */
+		E55FC122FF593C0AD3D376DC = {isa = PBXBuildFile; fileRef = 5590589D53FCC6DABD54D8D4; }; /* ShooterNPC.cpp */
+		09C87E31E7E56EC42E41BA64 = {isa = PBXBuildFile; fileRef = ED1F986CAEE3E24802FFF5AB; }; /* ShooterNPCSpawner.cpp */
+		4A105E2FC8EE99E78818F9A6 = {isa = PBXBuildFile; fileRef = A1D19FC753E96C2C7CBA9F8A; }; /* ShooterStateTreeUtility.cpp */
+		ADA9DCB34463F7AD686E5920 = {isa = PBXBuildFile; fileRef = 50A055B3805575ACB3F34C8C; }; /* ShooterCharacter.cpp */
+		1B59398C8379B7F3929051D9 = {isa = PBXBuildFile; fileRef = F9C3257A001067BFC06DF1CA; }; /* ShooterGameMode.cpp */
+		B74D63FA62FFEFB0E300BD6C = {isa = PBXBuildFile; fileRef = 6896CF7942BA9E5DEAC3BBD3; }; /* ShooterPlayerController.cpp */
+		8C1B77CF3895BDBA5D4FCD68 = {isa = PBXBuildFile; fileRef = 95190E6FC9D4FD973660B125; }; /* ShooterBulletCounterUI.cpp */
+		9E7356502A8C72DDA07D5183 = {isa = PBXBuildFile; fileRef = 81D54C8DFAAF96B28E4F6B3B; }; /* ShooterUI.cpp */
+		721070713CC9360E38F8214A = {isa = PBXBuildFile; fileRef = 2870F291B816520755EBE2C8; }; /* ShooterPickup.cpp */
+		C2AE74C0CA2A1D5F892681BD = {isa = PBXBuildFile; fileRef = 9DCE57ADB1BA79F82C5D43C3; }; /* ShooterProjectile.cpp */
+		039918DC2060EB4853BF323C = {isa = PBXBuildFile; fileRef = F57C81296491D00A825E1A60; }; /* ShooterWeapon.cpp */
+		1C087C3B5BA83EE6D5E7E1C3 = {isa = PBXBuildFile; fileRef = 4A8F37F7F0077A01760916D8; }; /* ShooterWeaponHolder.cpp */
+		A28E78E455F8072D907F4579 = {isa = PBXBuildFile; fileRef = 01ECC4E07CBE8087F62ADA53; }; /* Assets.xcassets */
+		3EBCACD8C7F266BF474FEFA5 = {isa = PBXBuildFile; fileRef = D65706F1F7A57AC2821F21FA; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10E4841AB4578BB4EF66F8B7 = {isa = PBXFileReference; explicitFileType = file.txt; name = "HauntedEscape.uproject"; path = "../../HauntedEscape.uproject"; sourceTree = SOURCE_ROOT; };
+		30EBFA571182E6B8BA765205 = {isa = PBXFileReference; explicitFileType = file.txt; name = "HauntedEscape.Build.cs"; path = "../../Source/HauntedEscape/HauntedEscape.Build.cs"; sourceTree = SOURCE_ROOT; };
+		EC5879CCEF96DA4F50A89167 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HauntedEscape.cpp"; path = "../../Source/HauntedEscape/HauntedEscape.cpp"; sourceTree = SOURCE_ROOT; };
+		2BBFAB41E58DD402C90DFC20 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HauntedEscape.h"; path = "../../Source/HauntedEscape/HauntedEscape.h"; sourceTree = SOURCE_ROOT; };
+		712B3ABF092BA4AD3BAAA165 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HauntedEscapeCameraManager.cpp"; path = "../../Source/HauntedEscape/HauntedEscapeCameraManager.cpp"; sourceTree = SOURCE_ROOT; };
+		C57E981433CA335C0F95A42C = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HauntedEscapeCameraManager.h"; path = "../../Source/HauntedEscape/HauntedEscapeCameraManager.h"; sourceTree = SOURCE_ROOT; };
+		A55795581C63EE34276812DC = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HauntedEscapeCharacter.cpp"; path = "../../Source/HauntedEscape/HauntedEscapeCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		CFCE2E82FDF0A2AE8B7B6BC3 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HauntedEscapeCharacter.h"; path = "../../Source/HauntedEscape/HauntedEscapeCharacter.h"; sourceTree = SOURCE_ROOT; };
+		1ADCCB1784A7DB7B577B1132 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HauntedEscapeGameMode.cpp"; path = "../../Source/HauntedEscape/HauntedEscapeGameMode.cpp"; sourceTree = SOURCE_ROOT; };
+		806ECB9854C01453165EE447 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HauntedEscapeGameMode.h"; path = "../../Source/HauntedEscape/HauntedEscapeGameMode.h"; sourceTree = SOURCE_ROOT; };
+		DD81188C4EEAD37C4722D6A2 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HauntedEscapePlayerController.cpp"; path = "../../Source/HauntedEscape/HauntedEscapePlayerController.cpp"; sourceTree = SOURCE_ROOT; };
+		9F80B0825E4DC9EA3008563E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HauntedEscapePlayerController.h"; path = "../../Source/HauntedEscape/HauntedEscapePlayerController.h"; sourceTree = SOURCE_ROOT; };
+		C87980151B53C798233E4FB7 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HorrorCharacter.cpp"; path = "../../Source/HauntedEscape/Variant_Horror/HorrorCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		11EE08E77ABE6CCC2AA8F339 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HorrorCharacter.h"; path = "../../Source/HauntedEscape/Variant_Horror/HorrorCharacter.h"; sourceTree = SOURCE_ROOT; };
+		81E9C04E22C661AC6D91FAD7 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HorrorGameMode.cpp"; path = "../../Source/HauntedEscape/Variant_Horror/HorrorGameMode.cpp"; sourceTree = SOURCE_ROOT; };
+		81E14483DCFF33153005CDA9 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HorrorGameMode.h"; path = "../../Source/HauntedEscape/Variant_Horror/HorrorGameMode.h"; sourceTree = SOURCE_ROOT; };
+		88054C752399F6137BCD4671 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HorrorPlayerController.cpp"; path = "../../Source/HauntedEscape/Variant_Horror/HorrorPlayerController.cpp"; sourceTree = SOURCE_ROOT; };
+		98C2A68D8DEDF560820A3D34 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HorrorPlayerController.h"; path = "../../Source/HauntedEscape/Variant_Horror/HorrorPlayerController.h"; sourceTree = SOURCE_ROOT; };
+		EF6F563701F0FC0C818EAEC5 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "HorrorUI.cpp"; path = "../../Source/HauntedEscape/Variant_Horror/UI/HorrorUI.cpp"; sourceTree = SOURCE_ROOT; };
+		6755EEC0CBC1FEDF043FC414 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "HorrorUI.h"; path = "../../Source/HauntedEscape/Variant_Horror/UI/HorrorUI.h"; sourceTree = SOURCE_ROOT; };
+		94DD69F96C7DCB7006E1A13E = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnvQueryContext_Target.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/EnvQueryContext_Target.cpp"; sourceTree = SOURCE_ROOT; };
+		93D99E4839B2DF5222050C4C = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnvQueryContext_Target.h"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/EnvQueryContext_Target.h"; sourceTree = SOURCE_ROOT; };
+		4BEBEA314AC1DE12974CCF88 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterAIController.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterAIController.cpp"; sourceTree = SOURCE_ROOT; };
+		2D29AC6F7B59BDE5F50C8EE7 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterAIController.h"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterAIController.h"; sourceTree = SOURCE_ROOT; };
+		5590589D53FCC6DABD54D8D4 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterNPC.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterNPC.cpp"; sourceTree = SOURCE_ROOT; };
+		A36276CDB36784E1EE58F9EA = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterNPC.h"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterNPC.h"; sourceTree = SOURCE_ROOT; };
+		ED1F986CAEE3E24802FFF5AB = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterNPCSpawner.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterNPCSpawner.cpp"; sourceTree = SOURCE_ROOT; };
+		EF790C89882404FC5A3600F3 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterNPCSpawner.h"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterNPCSpawner.h"; sourceTree = SOURCE_ROOT; };
+		A1D19FC753E96C2C7CBA9F8A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterStateTreeUtility.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterStateTreeUtility.cpp"; sourceTree = SOURCE_ROOT; };
+		CECBBD44D6576FC062C1F2A9 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterStateTreeUtility.h"; path = "../../Source/HauntedEscape/Variant_Shooter/AI/ShooterStateTreeUtility.h"; sourceTree = SOURCE_ROOT; };
+		50A055B3805575ACB3F34C8C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterCharacter.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/ShooterCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		8877873A34D324DCC3AC23B7 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterCharacter.h"; path = "../../Source/HauntedEscape/Variant_Shooter/ShooterCharacter.h"; sourceTree = SOURCE_ROOT; };
+		F9C3257A001067BFC06DF1CA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterGameMode.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/ShooterGameMode.cpp"; sourceTree = SOURCE_ROOT; };
+		025BB7015562C9C01A093B51 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterGameMode.h"; path = "../../Source/HauntedEscape/Variant_Shooter/ShooterGameMode.h"; sourceTree = SOURCE_ROOT; };
+		6896CF7942BA9E5DEAC3BBD3 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterPlayerController.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/ShooterPlayerController.cpp"; sourceTree = SOURCE_ROOT; };
+		2E73298BF1E2CEF825AD4170 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterPlayerController.h"; path = "../../Source/HauntedEscape/Variant_Shooter/ShooterPlayerController.h"; sourceTree = SOURCE_ROOT; };
+		95190E6FC9D4FD973660B125 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterBulletCounterUI.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/UI/ShooterBulletCounterUI.cpp"; sourceTree = SOURCE_ROOT; };
+		3E6C8FD1DCEFC718C88BEDF4 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterBulletCounterUI.h"; path = "../../Source/HauntedEscape/Variant_Shooter/UI/ShooterBulletCounterUI.h"; sourceTree = SOURCE_ROOT; };
+		81D54C8DFAAF96B28E4F6B3B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterUI.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/UI/ShooterUI.cpp"; sourceTree = SOURCE_ROOT; };
+		952DD2FC6225192FA3874E8D = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterUI.h"; path = "../../Source/HauntedEscape/Variant_Shooter/UI/ShooterUI.h"; sourceTree = SOURCE_ROOT; };
+		2870F291B816520755EBE2C8 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterPickup.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterPickup.cpp"; sourceTree = SOURCE_ROOT; };
+		0793626BBBE2BC2470BF3BAF = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterPickup.h"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterPickup.h"; sourceTree = SOURCE_ROOT; };
+		9DCE57ADB1BA79F82C5D43C3 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterProjectile.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterProjectile.cpp"; sourceTree = SOURCE_ROOT; };
+		28F7C6B4A73464937037F5CE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterProjectile.h"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterProjectile.h"; sourceTree = SOURCE_ROOT; };
+		F57C81296491D00A825E1A60 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterWeapon.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterWeapon.cpp"; sourceTree = SOURCE_ROOT; };
+		ADE104E1E89AE8B6ED946322 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterWeapon.h"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterWeapon.h"; sourceTree = SOURCE_ROOT; };
+		4A8F37F7F0077A01760916D8 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShooterWeaponHolder.cpp"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterWeaponHolder.cpp"; sourceTree = SOURCE_ROOT; };
+		C78828D7457C5799EB75490E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ShooterWeaponHolder.h"; path = "../../Source/HauntedEscape/Variant_Shooter/Weapons/ShooterWeaponHolder.h"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 = {isa = PBXFileReference; explicitFileType = file.txt; name = "HauntedEscapeEditor.Target.cs"; path = "../../Source/HauntedEscapeEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		4155736F9420E1CFCD069077 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "HauntedEscapeEditor"; path = "HauntedEscapeEditor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01ECC4E07CBE8087F62ADA53 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/UE_5.7/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		D65706F1F7A57AC2821F21FA = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/UE_5.7/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		52F80E7101C8D771EA31FD7F = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "HauntedEscapeEditor.xcconfig"; path = "XcconfigsMac/HauntedEscapeEditor.xcconfig"; sourceTree = "<group>"; };
+		47630A47A4866F875102E515 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "HauntedEscapeEditor_DebugGame.xcconfig"; path = "XcconfigsMac/HauntedEscapeEditor_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		0835562295E8FD5455326D85 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "HauntedEscapeEditor_Development.xcconfig"; path = "XcconfigsMac/HauntedEscapeEditor_Development.xcconfig"; sourceTree = "<group>"; };
+		3E30640C2CF74E83A6FE3787 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../Shared/UE_5.7/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		F30EE03D51C9B11461DDBC25 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		4C1BBDEA4ACBB1C31A89CE9C = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C1D5FFEDDA19BA611F5246F = {
+			isa = PBXGroup;
+			children = (
+				68FFBF316150CB4AC091E5EE /* Source */,
+				10E4841AB4578BB4EF66F8B7 /* HauntedEscape.uproject */,
+				5E8F047EBA179AF4842334DA /* Products */,
+				A2C85F3F68629B95EEEC9C0C /* Resources */,
+				3847F0E09FFBE05FFF6F3FF3 /* Xcconfigs */,
+				4F06501E1D2D590EB3FBE013 /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		68FFBF316150CB4AC091E5EE = {
+			isa = PBXGroup;
+			children = (
+				D922DF86FD0CB9D0DD553EDC /* HauntedEscape */,
+				940AC694D607EE88F16DFF10 /* HauntedEscapeEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source";
+			sourceTree = "<absolute>";
+		};
+		D922DF86FD0CB9D0DD553EDC = {
+			isa = PBXGroup;
+			children = (
+				2A06E386B86B8AC251D561E1 /* Variant_Horror */,
+				FD6F50114CC0563F802061DE /* Variant_Shooter */,
+				30EBFA571182E6B8BA765205 /* HauntedEscape.Build.cs */,
+				EC5879CCEF96DA4F50A89167 /* HauntedEscape.cpp */,
+				2BBFAB41E58DD402C90DFC20 /* HauntedEscape.h */,
+				712B3ABF092BA4AD3BAAA165 /* HauntedEscapeCameraManager.cpp */,
+				C57E981433CA335C0F95A42C /* HauntedEscapeCameraManager.h */,
+				A55795581C63EE34276812DC /* HauntedEscapeCharacter.cpp */,
+				CFCE2E82FDF0A2AE8B7B6BC3 /* HauntedEscapeCharacter.h */,
+				1ADCCB1784A7DB7B577B1132 /* HauntedEscapeGameMode.cpp */,
+				806ECB9854C01453165EE447 /* HauntedEscapeGameMode.h */,
+				DD81188C4EEAD37C4722D6A2 /* HauntedEscapePlayerController.cpp */,
+				9F80B0825E4DC9EA3008563E /* HauntedEscapePlayerController.h */,
+			);
+			name = "HauntedEscape";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape";
+			sourceTree = "<absolute>";
+		};
+		2A06E386B86B8AC251D561E1 = {
+			isa = PBXGroup;
+			children = (
+				AAED43F1C1C60C8265BEAC5C /* UI */,
+				C87980151B53C798233E4FB7 /* HorrorCharacter.cpp */,
+				11EE08E77ABE6CCC2AA8F339 /* HorrorCharacter.h */,
+				81E9C04E22C661AC6D91FAD7 /* HorrorGameMode.cpp */,
+				81E14483DCFF33153005CDA9 /* HorrorGameMode.h */,
+				88054C752399F6137BCD4671 /* HorrorPlayerController.cpp */,
+				98C2A68D8DEDF560820A3D34 /* HorrorPlayerController.h */,
+			);
+			name = "Variant_Horror";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Horror";
+			sourceTree = "<absolute>";
+		};
+		AAED43F1C1C60C8265BEAC5C = {
+			isa = PBXGroup;
+			children = (
+				EF6F563701F0FC0C818EAEC5 /* HorrorUI.cpp */,
+				6755EEC0CBC1FEDF043FC414 /* HorrorUI.h */,
+			);
+			name = "UI";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Horror/UI";
+			sourceTree = "<absolute>";
+		};
+		FD6F50114CC0563F802061DE = {
+			isa = PBXGroup;
+			children = (
+				968E890BD8A8FD56B200F653 /* AI */,
+				894313C890AE179453608438 /* UI */,
+				99E830A03F93AC9D99EBD9BB /* Weapons */,
+				50A055B3805575ACB3F34C8C /* ShooterCharacter.cpp */,
+				8877873A34D324DCC3AC23B7 /* ShooterCharacter.h */,
+				F9C3257A001067BFC06DF1CA /* ShooterGameMode.cpp */,
+				025BB7015562C9C01A093B51 /* ShooterGameMode.h */,
+				6896CF7942BA9E5DEAC3BBD3 /* ShooterPlayerController.cpp */,
+				2E73298BF1E2CEF825AD4170 /* ShooterPlayerController.h */,
+			);
+			name = "Variant_Shooter";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter";
+			sourceTree = "<absolute>";
+		};
+		968E890BD8A8FD56B200F653 = {
+			isa = PBXGroup;
+			children = (
+				94DD69F96C7DCB7006E1A13E /* EnvQueryContext_Target.cpp */,
+				93D99E4839B2DF5222050C4C /* EnvQueryContext_Target.h */,
+				4BEBEA314AC1DE12974CCF88 /* ShooterAIController.cpp */,
+				2D29AC6F7B59BDE5F50C8EE7 /* ShooterAIController.h */,
+				5590589D53FCC6DABD54D8D4 /* ShooterNPC.cpp */,
+				A36276CDB36784E1EE58F9EA /* ShooterNPC.h */,
+				ED1F986CAEE3E24802FFF5AB /* ShooterNPCSpawner.cpp */,
+				EF790C89882404FC5A3600F3 /* ShooterNPCSpawner.h */,
+				A1D19FC753E96C2C7CBA9F8A /* ShooterStateTreeUtility.cpp */,
+				CECBBD44D6576FC062C1F2A9 /* ShooterStateTreeUtility.h */,
+			);
+			name = "AI";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter/AI";
+			sourceTree = "<absolute>";
+		};
+		894313C890AE179453608438 = {
+			isa = PBXGroup;
+			children = (
+				95190E6FC9D4FD973660B125 /* ShooterBulletCounterUI.cpp */,
+				3E6C8FD1DCEFC718C88BEDF4 /* ShooterBulletCounterUI.h */,
+				81D54C8DFAAF96B28E4F6B3B /* ShooterUI.cpp */,
+				952DD2FC6225192FA3874E8D /* ShooterUI.h */,
+			);
+			name = "UI";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter/UI";
+			sourceTree = "<absolute>";
+		};
+		99E830A03F93AC9D99EBD9BB = {
+			isa = PBXGroup;
+			children = (
+				2870F291B816520755EBE2C8 /* ShooterPickup.cpp */,
+				0793626BBBE2BC2470BF3BAF /* ShooterPickup.h */,
+				9DCE57ADB1BA79F82C5D43C3 /* ShooterProjectile.cpp */,
+				28F7C6B4A73464937037F5CE /* ShooterProjectile.h */,
+				F57C81296491D00A825E1A60 /* ShooterWeapon.cpp */,
+				ADE104E1E89AE8B6ED946322 /* ShooterWeapon.h */,
+				4A8F37F7F0077A01760916D8 /* ShooterWeaponHolder.cpp */,
+				C78828D7457C5799EB75490E /* ShooterWeaponHolder.h */,
+			);
+			name = "Weapons";
+			path = "/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter/Weapons";
+			sourceTree = "<absolute>";
+		};
+		5E8F047EBA179AF4842334DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4155736F9420E1CFCD069077 /* HauntedEscapeEditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C85F3F68629B95EEEC9C0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01ECC4E07CBE8087F62ADA53 /* Assets.xcassets */,
+				D65706F1F7A57AC2821F21FA /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3847F0E09FFBE05FFF6F3FF3 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				52F80E7101C8D771EA31FD7F /* HauntedEscapeEditor.xcconfig */,
+				47630A47A4866F875102E515 /* HauntedEscapeEditor_DebugGame.xcconfig */,
+				0835562295E8FD5455326D85 /* HauntedEscapeEditor_Development.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		4F06501E1D2D590EB3FBE013 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3E30640C2CF74E83A6FE3787 /* Info-Editor.Template.plist */,
+				F30EE03D51C9B11461DDBC25 /* Info.Template.plist */,
+				4C1BBDEA4ACBB1C31A89CE9C /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		9F5412F015C0615A3479ADF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					39253487F5E8E547B36904A8 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD8504CFB481C69D1B520AE8 /* Build configuration list for PBXProject "HauntedEscapeEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 1C1D5FFEDDA19BA611F5246F;
+			productRefGroup = 5E8F047EBA179AF4842334DA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39253487F5E8E547B36904A8 /* HauntedEscapeEditor */,
+				58DBDF031EB5BD072DF2A28D /* HauntedEscapeEditor_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin PBXNativeTarget section (Run_App) */
+		39253487F5E8E547B36904A8 /* HauntedEscapeEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D0CB1F49643565621FE0F8 /* Build configuration list for PBXNativeTarget "HauntedEscapeEditor" */;
+			buildPhases = (
+				7FBEA5616BAC846BC064A2E3 /* Resources */,
+				98E57C40D86F4DA9844C888F /* Copy Executable into .app */,
+			);
+			dependencies = (
+				CDCEA6B381D20681AACAECF8 /* HauntedEscapeEditor_Build */,
+			);
+			name = "HauntedEscapeEditor";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 4155736F9420E1CFCD069077;
+			productName = "HauntedEscapeEditor";
+		};
+/* End PBXNativeTarget section (Run_App)*/
+		00D0CB1F49643565621FE0F8 /* Build configuration list for target HauntedEscapeEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE1D0701ACC3D159A5B33EF /* DebugGame */,
+				8A5045195BAA90713C4D3D4C /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		0DE1D0701ACC3D159A5B33EF /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47630A47A4866F875102E515 /* HauntedEscapeEditor_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		8A5045195BAA90713C4D3D4C /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0835562295E8FD5455326D85 /* HauntedEscapeEditor_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		7FBEA5616BAC846BC064A2E3 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28E78E455F8072D907F4579 /* Assets.xcassets in Resources */,
+				3EBCACD8C7F266BF474FEFA5 /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		98E57C40D86F4DA9844C888F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		ABAA528BE4F26D80179204C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5412F015C0615A3479ADF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DBDF031EB5BD072DF2A28D;
+			remoteInfo = "HauntedEscapeEditor_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		CDCEA6B381D20681AACAECF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DBDF031EB5BD072DF2A28D /* HauntedEscapeEditor_Build */;
+			targetProxy = ABAA528BE4F26D80179204C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin PBXNativeTarget section (Build) */
+		58DBDF031EB5BD072DF2A28D /* HauntedEscapeEditor_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = DA8DD00986FDAA8C2BF5A07E /* Build configuration list for PBXLegacyTarget "HauntedEscapeEditor_Build" */;
+			buildArgumentsString = "$(ACTION) HauntedEscapeEditor $(PLATFORM_NAME) $(CONFIGURATION) \"/Users/laurenli/Documents/HauntedEscape/HauntedEscape.uproject\"";
+			buildToolPath = "/Users/Shared/UE_5.7/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/UE_5.7";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "HauntedEscapeEditor_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section (Build)*/
+		DA8DD00986FDAA8C2BF5A07E /* Build configuration list for target HauntedEscapeEditor_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B48030481562D4FB14230F /* DebugGame */,
+				F701466EF436F083EB7ED348 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		E4B48030481562D4FB14230F /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		F701466EF436F083EB7ED348 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		CD8504CFB481C69D1B520AE8 /* Build configuration list for target HauntedEscapeEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3662A4D4A1A6EA388F0268 /* DebugGame */,
+				51610AE958F8E6BCBE5CFB1A /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		EC3662A4D4A1A6EA388F0268 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		51610AE958F8E6BCBE5CFB1A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+	};
+	rootObject = 9F5412F015C0615A3479ADF7 /* Project object */;
+}
