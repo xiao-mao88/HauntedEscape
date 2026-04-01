@@ -287,15 +287,16 @@
 -I"../Intermediate/Build/Mac/UnrealEditor/Inc/AIModule/UHT"
 -I"Runtime/AIModule/Classes"
 -I"Runtime/AIModule/Public"
--I"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/UnrealEditor/Inc/HauntedEscape/UHT"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Horror"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Horror/UI"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter/AI"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter/UI"
--I"/Users/laurenli/Documents/HauntedEscape/Source/HauntedEscape/Variant_Shooter/Weapons"
--I"/Users/laurenli/Documents/HauntedEscape/Source"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/UnrealEditor/Inc/HauntedEscape/UHT"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Horror"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Horror/UI"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter/AI"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter/UI"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter/Weapons"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/AICharacter"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source"
 -I"../Plugins/EnhancedInput/Intermediate/Build/Mac/UnrealEditor/Inc/EnhancedInput/UHT"
 -I"../Plugins/EnhancedInput/Source"
 -I"../Plugins/EnhancedInput/Source/EnhancedInput/Public"
@@ -311,7 +312,7 @@
 -I"../Plugins/Runtime/GameplayStateTree/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayStateTreeModule/UHT"
 -I"../Plugins/Runtime/GameplayStateTree/Source"
 -I"../Plugins/Runtime/GameplayStateTree/Source/GameplayStateTreeModule/Public"
--I"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/UnrealEd"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/UnrealEd"
 -isystem"ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 -isystem"ThirdParty/AtomicQueue"
 -isystem"ThirdParty/RapidJSON/1.1.0"
@@ -390,8 +391,8 @@
 -ffp-contract=off
 -arch arm64
 -isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
--include-pch "/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.gch"
--include "/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Definitions.HauntedEscape.h"
+-include-pch "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.gch"
+-include "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Definitions.HauntedEscape.h"
 -x objective-c++
 -std=c++20
 -Xclang -fno-pch-timestamp
@@ -401,6 +402,6 @@
 -fno-implicit-modules
 -fimplicit-module-maps
 -Wno-module-import-in-extern-c
-"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp"
--MD -MF"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp.d"
--o "/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp.o"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp"
+-MD -MF"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp.d"
+-o "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp.o"

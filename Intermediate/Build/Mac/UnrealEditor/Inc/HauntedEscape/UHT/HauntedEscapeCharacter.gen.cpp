@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "HauntedEscapeCharacter.h"
+#include "Player/HauntedEscapeCharacter.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
@@ -35,7 +35,7 @@ struct Z_Construct_UFunction_AHauntedEscapeCharacter_DoAim_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Handles aim inputs from either controls or UI interfaces */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Handles aim inputs from either controls or UI interfaces" },
 #endif
@@ -93,7 +93,7 @@ struct Z_Construct_UFunction_AHauntedEscapeCharacter_DoJumpEnd_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Handles jump end inputs from either controls or UI interfaces */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Handles jump end inputs from either controls or UI interfaces" },
 #endif
@@ -135,7 +135,7 @@ struct Z_Construct_UFunction_AHauntedEscapeCharacter_DoJumpStart_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Handles jump start inputs from either controls or UI interfaces */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Handles jump start inputs from either controls or UI interfaces" },
 #endif
@@ -182,7 +182,7 @@ struct Z_Construct_UFunction_AHauntedEscapeCharacter_DoMove_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Handles move inputs from either controls or UI interfaces */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Handles move inputs from either controls or UI interfaces" },
 #endif
@@ -269,8 +269,8 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 		{ "Comment", "/**\n *  A basic first person character\n */" },
 #endif
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "HauntedEscapeCharacter.h" },
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "IncludePath", "Player/HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A basic first person character" },
 #endif
@@ -282,7 +282,7 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 		{ "Comment", "/** Pawn mesh: first person view (arms; seen only by self) */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pawn mesh: first person view (arms; seen only by self)" },
 #endif
@@ -294,7 +294,7 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 		{ "Comment", "/** First person camera */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "First person camera" },
 #endif
@@ -304,7 +304,7 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Jump Input Action */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Jump Input Action" },
 #endif
@@ -314,7 +314,7 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Move Input Action */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Move Input Action" },
 #endif
@@ -324,7 +324,7 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Look Input Action */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Look Input Action" },
 #endif
@@ -334,7 +334,7 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Mouse Look Input Action */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapeCharacter.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mouse Look Input Action" },
 #endif
@@ -358,10 +358,10 @@ struct Z_Construct_UClass_AHauntedEscapeCharacter_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoAim, "DoAim" }, // 2346274423
-		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoJumpEnd, "DoJumpEnd" }, // 4085380990
-		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoJumpStart, "DoJumpStart" }, // 2881302400
-		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoMove, "DoMove" }, // 2858654613
+		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoAim, "DoAim" }, // 197070084
+		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoJumpEnd, "DoJumpEnd" }, // 525027539
+		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoJumpStart, "DoJumpStart" }, // 821831005
+		{ &Z_Construct_UFunction_AHauntedEscapeCharacter_DoMove, "DoMove" }, // 3499967676
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -425,15 +425,15 @@ AHauntedEscapeCharacter::~AHauntedEscapeCharacter() {}
 // ********** End Class AHauntedEscapeCharacter ****************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics
+struct Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AHauntedEscapeCharacter, AHauntedEscapeCharacter::StaticClass, TEXT("AHauntedEscapeCharacter"), &Z_Registration_Info_UClass_AHauntedEscapeCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHauntedEscapeCharacter), 1147023376U) },
+		{ Z_Construct_UClass_AHauntedEscapeCharacter, AHauntedEscapeCharacter::StaticClass, TEXT("AHauntedEscapeCharacter"), &Z_Registration_Info_UClass_AHauntedEscapeCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHauntedEscapeCharacter), 1350102127U) },
 	};
-}; // Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_HauntedEscapeCharacter_h__Script_HauntedEscape_2878927202{
+}; // Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapeCharacter_h__Script_HauntedEscape_1934706339{
 	TEXT("/Script/HauntedEscape"),
-	Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapeCharacter_h__Script_HauntedEscape_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };
