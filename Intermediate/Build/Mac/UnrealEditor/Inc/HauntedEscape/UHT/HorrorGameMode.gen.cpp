@@ -109,15 +109,15 @@ AHorrorGameMode::~AHorrorGameMode() {}
 // ********** End Class AHorrorGameMode ************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics
+struct Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AHorrorGameMode, AHorrorGameMode::StaticClass, TEXT("AHorrorGameMode"), &Z_Registration_Info_UClass_AHorrorGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHorrorGameMode), 3396522512U) },
 	};
-}; // Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_1700598738{
+}; // Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_1700598738{
 	TEXT("/Script/HauntedEscape"),
-	Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Horror_HorrorGameMode_h__Script_HauntedEscape_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AShooterNPCSpawner *******************************************************
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnNPCDied);
 
 
 struct Z_Construct_UClass_AShooterNPCSpawner_Statics;
 HAUNTEDESCAPE_API UClass* Z_Construct_UClass_AShooterNPCSpawner_NoRegister();
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterNPCSpawner(); \
 	friend struct ::Z_Construct_UClass_AShooterNPCSpawner_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterNPCSpawner)
 
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AShooterNPCSpawner(AShooterNPCSpawner&&) = delete; \
 	AShooterNPCSpawner(const AShooterNPCSpawner&) = delete; \
@@ -45,13 +45,13 @@ public: \
 	NO_API virtual ~AShooterNPCSpawner();
 
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_17_PROLOG
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_GENERATED_BODY \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_17_PROLOG
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_INCLASS_NO_PURE_DECLS \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_ENHANCED_CONSTRUCTORS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_INCLASS_NO_PURE_DECLS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,6 +61,6 @@ class AShooterNPCSpawner;
 // ********** End Class AShooterNPCSpawner *********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h
+#define CURRENT_FILE_ID FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterNPCSpawner_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
