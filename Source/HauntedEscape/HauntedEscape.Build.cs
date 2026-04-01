@@ -13,8 +13,9 @@ public class HauntedEscape : ModuleRules
 			"CoreUObject",
 			"Engine",
 			"InputCore",
-			"EnhancedInput",
-			"AIModule",
+			"EnhancedInput", // player input
+			"AIModule", // AIController + behavior trees
+			"NavigationSystem", // added for nav mesh + movement - audrey
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
@@ -30,7 +31,8 @@ public class HauntedEscape : ModuleRules
 			"HauntedEscape/Variant_Shooter",
 			"HauntedEscape/Variant_Shooter/AI",
 			"HauntedEscape/Variant_Shooter/UI",
-			"HauntedEscape/Variant_Shooter/Weapons"
+			"HauntedEscape/Variant_Shooter/Weapons",
+			"HauntedEscape/AICharacter"
 		});
 
 		// Uncomment if you are using Slate UI
