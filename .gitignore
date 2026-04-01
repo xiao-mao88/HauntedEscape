@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Unreal Engine
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.sln
+*.suo
+.vs/
+
+# Mac
+.DS_Store
