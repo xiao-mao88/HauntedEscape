@@ -96,13 +96,13 @@
 -ffp-contract=off
 -arch arm64
 -isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
--include-pch "/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h.gch"
+-include-pch "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h.gch"
 -x objective-c++-header
 -std=c++20
 -Xclang -fno-pch-timestamp
 -fpch-validate-input-files-content
 -stdlib=libc++
 -fpch-instantiate-templates
-"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h"
--MD -MF"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h.d"
--o "/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h.gch"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h"
+-MD -MF"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h.d"
+-o "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h.gch"
