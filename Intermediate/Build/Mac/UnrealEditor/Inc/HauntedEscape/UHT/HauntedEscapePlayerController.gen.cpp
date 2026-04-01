@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "HauntedEscapePlayerController.h"
+#include "Player/HauntedEscapePlayerController.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");
@@ -59,8 +59,8 @@ struct Z_Construct_UClass_AHauntedEscapePlayerController_Statics
 		{ "Comment", "/**\n *  Simple first person Player Controller\n *  Manages the input mapping context.\n *  Overrides the Player Camera Manager class.\n */" },
 #endif
 		{ "HideCategories", "Collision Rendering Transformation" },
-		{ "IncludePath", "HauntedEscapePlayerController.h" },
-		{ "ModuleRelativePath", "HauntedEscapePlayerController.h" },
+		{ "IncludePath", "Player/HauntedEscapePlayerController.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapePlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Simple first person Player Controller\nManages the input mapping context.\nOverrides the Player Camera Manager class." },
 #endif
@@ -70,7 +70,7 @@ struct Z_Construct_UClass_AHauntedEscapePlayerController_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input Mapping Contexts */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapePlayerController.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapePlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input Mapping Contexts" },
 #endif
@@ -80,7 +80,7 @@ struct Z_Construct_UClass_AHauntedEscapePlayerController_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input Mapping Contexts */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapePlayerController.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapePlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input Mapping Contexts" },
 #endif
@@ -90,7 +90,7 @@ struct Z_Construct_UClass_AHauntedEscapePlayerController_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Mobile controls widget to spawn */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapePlayerController.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapePlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mobile controls widget to spawn" },
 #endif
@@ -100,7 +100,7 @@ struct Z_Construct_UClass_AHauntedEscapePlayerController_Statics
 		{ "Comment", "/** Pointer to the mobile controls widget */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HauntedEscapePlayerController.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapePlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pointer to the mobile controls widget" },
 #endif
@@ -110,7 +110,7 @@ struct Z_Construct_UClass_AHauntedEscapePlayerController_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, the player will use UMG touch controls even if not playing on mobile platforms */" },
 #endif
-		{ "ModuleRelativePath", "HauntedEscapePlayerController.h" },
+		{ "ModuleRelativePath", "Player/HauntedEscapePlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, the player will use UMG touch controls even if not playing on mobile platforms" },
 #endif
@@ -194,15 +194,15 @@ AHauntedEscapePlayerController::~AHauntedEscapePlayerController() {}
 // ********** End Class AHauntedEscapePlayerController *********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics
+struct Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AHauntedEscapePlayerController, AHauntedEscapePlayerController::StaticClass, TEXT("AHauntedEscapePlayerController"), &Z_Registration_Info_UClass_AHauntedEscapePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHauntedEscapePlayerController), 3571549443U) },
+		{ Z_Construct_UClass_AHauntedEscapePlayerController, AHauntedEscapePlayerController::StaticClass, TEXT("AHauntedEscapePlayerController"), &Z_Registration_Info_UClass_AHauntedEscapePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AHauntedEscapePlayerController), 3580758125U) },
 	};
-}; // Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_HauntedEscapePlayerController_h__Script_HauntedEscape_1228596706{
+}; // Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapePlayerController_h__Script_HauntedEscape_678827142{
 	TEXT("/Script/HauntedEscape"),
-	Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Player_HauntedEscapePlayerController_h__Script_HauntedEscape_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

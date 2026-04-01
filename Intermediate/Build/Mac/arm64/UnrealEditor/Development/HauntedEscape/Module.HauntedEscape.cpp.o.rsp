@@ -295,6 +295,7 @@
 -I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter/AI"
 -I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter/UI"
 -I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/Variant_Shooter/Weapons"
+-I"/Users/audrey/Documents/GitHub/HauntedEscape/Source/HauntedEscape/AICharacter"
 -I"/Users/audrey/Documents/GitHub/HauntedEscape/Source"
 -I"../Plugins/EnhancedInput/Intermediate/Build/Mac/UnrealEditor/Inc/EnhancedInput/UHT"
 -I"../Plugins/EnhancedInput/Source"
