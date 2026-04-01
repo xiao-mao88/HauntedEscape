@@ -1093,7 +1093,7 @@ UScriptStruct* Z_Construct_UScriptStruct_FStateTreeSenseEnemiesTask()
 // ********** End ScriptStruct FStateTreeSenseEnemiesTask ******************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics
+struct Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FStateTreeLineOfSightToTargetConditionInstanceData::StaticStruct, Z_Construct_UScriptStruct_FStateTreeLineOfSightToTargetConditionInstanceData_Statics::NewStructOps, TEXT("StateTreeLineOfSightToTargetConditionInstanceData"),&Z_Registration_Info_UScriptStruct_FStateTreeLineOfSightToTargetConditionInstanceData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStateTreeLineOfSightToTargetConditionInstanceData), 386780377U) },
@@ -1109,11 +1109,11 @@ struct Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_Haunted
 		{ FStateTreeSenseEnemiesInstanceData::StaticStruct, Z_Construct_UScriptStruct_FStateTreeSenseEnemiesInstanceData_Statics::NewStructOps, TEXT("StateTreeSenseEnemiesInstanceData"),&Z_Registration_Info_UScriptStruct_FStateTreeSenseEnemiesInstanceData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStateTreeSenseEnemiesInstanceData), 2886714863U) },
 		{ FStateTreeSenseEnemiesTask::StaticStruct, Z_Construct_UScriptStruct_FStateTreeSenseEnemiesTask_Statics::NewStructOps, TEXT("StateTreeSenseEnemiesTask"),&Z_Registration_Info_UScriptStruct_FStateTreeSenseEnemiesTask, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStateTreeSenseEnemiesTask), 4214997874U) },
 	};
-}; // Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_1118721703{
+}; // Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_1118721703{
 	TEXT("/Script/HauntedEscape"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_AI_ShooterStateTreeUtility_h__Script_HauntedEscape_Statics::ScriptStructInfo),
 	nullptr, 0,
 };
 // ********** End Registration *********************************************************************

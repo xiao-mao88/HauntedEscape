@@ -86,6 +86,6 @@
 -fpch-validate-input-files-content
 -stdlib=libc++
 -fpch-instantiate-templates
-"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h"
--MD -MF"/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.d"
--o "/Users/laurenli/Documents/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h"
+-MD -MF"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.d"
+-o "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/HauntedEscapeEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch"

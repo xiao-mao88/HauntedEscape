@@ -439,15 +439,15 @@ AShooterPlayerController::~AShooterPlayerController() {}
 // ********** End Class AShooterPlayerController ***************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics
+struct Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AShooterPlayerController, AShooterPlayerController::StaticClass, TEXT("AShooterPlayerController"), &Z_Registration_Info_UClass_AShooterPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AShooterPlayerController), 1772140539U) },
 	};
-}; // Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_892542898{
+}; // Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics 
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_892542898{
 	TEXT("/Script/HauntedEscape"),
-	Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterPlayerController_h__Script_HauntedEscape_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0,
 };

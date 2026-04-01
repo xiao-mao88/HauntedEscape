@@ -17,31 +17,31 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Delegate FBulletCountUpdatedDelegate *******************************************
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_15_DELEGATE \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_15_DELEGATE \
 HAUNTEDESCAPE_API void FBulletCountUpdatedDelegate_DelegateWrapper(const FMulticastScriptDelegate& BulletCountUpdatedDelegate, int32 MagazineSize, int32 Bullets);
 
 
 // ********** End Delegate FBulletCountUpdatedDelegate *********************************************
 
 // ********** Begin Delegate FDamagedDelegate ******************************************************
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_16_DELEGATE \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_16_DELEGATE \
 HAUNTEDESCAPE_API void FDamagedDelegate_DelegateWrapper(const FMulticastScriptDelegate& DamagedDelegate, float LifePercent);
 
 
 // ********** End Delegate FDamagedDelegate ********************************************************
 
 // ********** Begin Class AShooterCharacter ********************************************************
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDoSwitchWeapon); \
 	DECLARE_FUNCTION(execDoStopFiring); \
 	DECLARE_FUNCTION(execDoStartFiring);
 
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_CALLBACK_WRAPPERS
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_CALLBACK_WRAPPERS
 struct Z_Construct_UClass_AShooterCharacter_Statics;
 HAUNTEDESCAPE_API UClass* Z_Construct_UClass_AShooterCharacter_NoRegister();
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_INCLASS_NO_PURE_DECLS \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
 	friend struct ::Z_Construct_UClass_AShooterCharacter_Statics; \
@@ -53,7 +53,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<AShooterCharacter*>(this); }
 
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_ENHANCED_CONSTRUCTORS \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AShooterCharacter(AShooterCharacter&&) = delete; \
 	AShooterCharacter(const AShooterCharacter&) = delete; \
@@ -63,14 +63,14 @@ public: \
 	NO_API virtual ~AShooterCharacter();
 
 
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_23_PROLOG
-#define FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_GENERATED_BODY \
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_23_PROLOG
+#define FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_CALLBACK_WRAPPERS \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_INCLASS_NO_PURE_DECLS \
-	FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_ENHANCED_CONSTRUCTORS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_CALLBACK_WRAPPERS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_INCLASS_NO_PURE_DECLS \
+	FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -80,6 +80,6 @@ class AShooterCharacter;
 // ********** End Class AShooterCharacter **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_laurenli_Documents_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h
+#define CURRENT_FILE_ID FID_audrey_Documents_GitHub_HauntedEscape_Source_HauntedEscape_Variant_Shooter_ShooterCharacter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

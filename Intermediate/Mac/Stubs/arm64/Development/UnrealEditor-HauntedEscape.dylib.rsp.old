@@ -1,0 +1,22 @@
+-fdiagnostics-absolute-paths
+-fdiagnostics-color
+-L/usr/lib/swift
+-arch arm64
+-isysroot "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+-target arm64-apple-macos14.00
+-dead_strip
+-dynamiclib
+-headerpad_max_install_names
+-current_version 4753.73.91
+-compatibility_version 5.7.0
+-rpath @loader_path/ -rpath @executable_path/
+-undefined dynamic_lookup
+-Wl,-no_fixup_chains
+-install_name "@rpath/UnrealEditor-HauntedEscape.dylib"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/Module.HauntedEscape.cpp.o"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/ShooterCharacter.cpp.o"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HorrorCharacter.cpp.o"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HEEnemyCharacter.cpp.o"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscapeCharacter.cpp.o"
+"/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Build/Mac/arm64/UnrealEditor/Development/HauntedEscape/HauntedEscapePlayerController.cpp.o"
+-o "/Users/audrey/Documents/GitHub/HauntedEscape/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-HauntedEscape.dylib"
