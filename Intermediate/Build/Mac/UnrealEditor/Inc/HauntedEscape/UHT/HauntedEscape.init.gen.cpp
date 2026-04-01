@@ -9,6 +9,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHauntedEscape_init() {}
 static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compiled with !UE_WITH_CONSTINIT_OBJECT");	HAUNTEDESCAPE_API UFunction* Z_Construct_UDelegateFunction_HauntedEscape_BulletCountUpdatedDelegate__DelegateSignature();
 	HAUNTEDESCAPE_API UFunction* Z_Construct_UDelegateFunction_HauntedEscape_DamagedDelegate__DelegateSignature();
+	HAUNTEDESCAPE_API UFunction* Z_Construct_UDelegateFunction_HauntedEscape_EnemyDeathDelegate__DelegateSignature();
 	HAUNTEDESCAPE_API UFunction* Z_Construct_UDelegateFunction_HauntedEscape_PawnDeathDelegate__DelegateSignature();
 	HAUNTEDESCAPE_API UFunction* Z_Construct_UDelegateFunction_HauntedEscape_SprintStateChangedDelegate__DelegateSignature();
 	HAUNTEDESCAPE_API UFunction* Z_Construct_UDelegateFunction_HauntedEscape_UpdateSprintMeterDelegate__DelegateSignature();
@@ -20,6 +21,7 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 		static UObject* (*const SingletonFuncArray[])() = {
 			(UObject* (*)())Z_Construct_UDelegateFunction_HauntedEscape_BulletCountUpdatedDelegate__DelegateSignature,
 			(UObject* (*)())Z_Construct_UDelegateFunction_HauntedEscape_DamagedDelegate__DelegateSignature,
+			(UObject* (*)())Z_Construct_UDelegateFunction_HauntedEscape_EnemyDeathDelegate__DelegateSignature,
 			(UObject* (*)())Z_Construct_UDelegateFunction_HauntedEscape_PawnDeathDelegate__DelegateSignature,
 			(UObject* (*)())Z_Construct_UDelegateFunction_HauntedEscape_SprintStateChangedDelegate__DelegateSignature,
 			(UObject* (*)())Z_Construct_UDelegateFunction_HauntedEscape_UpdateSprintMeterDelegate__DelegateSignature,
@@ -29,13 +31,13 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			SingletonFuncArray,
 			UE_ARRAY_COUNT(SingletonFuncArray),
 			PKG_CompiledIn | 0x00000000,
-			0x3B51E288,
-			0xBE16654C,
+			0xB470098D,
+			0xC3DDB324,
 			METADATA_PARAMS(0, nullptr)
 		};
 		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_HauntedEscape.OuterSingleton, PackageParams);
 	}
 	return Z_Registration_Info_UPackage__Script_HauntedEscape.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_HauntedEscape(Z_Construct_UPackage__Script_HauntedEscape, TEXT("/Script/HauntedEscape"), Z_Registration_Info_UPackage__Script_HauntedEscape, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3B51E288, 0xBE16654C));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_HauntedEscape(Z_Construct_UPackage__Script_HauntedEscape, TEXT("/Script/HauntedEscape"), Z_Registration_Info_UPackage__Script_HauntedEscape, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xB470098D, 0xC3DDB324));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
