@@ -5,6 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/Users/laurenli/Documents/HauntedEscape/Content/Blueprints/Flashlight/BP_Flashlight.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/Input/Actions/IA_Flashlight.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/Input/IMC_Default.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/0/OU/JNT9M4BRQQ1XIRB32ZD2FR.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/Assets/Sounds/Flashlight_Click.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/Assets/UI_Elements/Flashlight/battery_icon.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/Assets/UI_Elements/Flashlight/batter_icon_fill.uasset",
+				"/Users/laurenli/Documents/HauntedEscape/Content/Assets/UI_Elements/Flashlight/WB_Flashlight.uasset",
 				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/2/5U/5ESOBDCYK7PT1TVGUWK6L9.uasset",
 				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/4/X7/4MX0WSOC9322H7E24M0X7E.uasset",
 				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/B/26/49DUAB7NCZ0BH5ZIXFTZHH.uasset",
@@ -86,8 +95,7 @@
 				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/0/Q6/1V2LW07TA4A2T1XX1PHUYI.uasset",
 				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/7/GA/2BH0RN5B3A9VXOOC7LOJT8.uasset",
 				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/4/CA/RNMASXCMCFFFVB5K5A5S4Y.uasset",
-				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/4/N0/3LT2XMS63FFM9URTXMRYJO.uasset",
-				"/Users/laurenli/Documents/HauntedEscape/Content/Blueprints/Flashlight/BP_Flashlight.uasset"
+				"/Users/audrey/Documents/GitHub/HauntedEscape/Content/__ExternalActors__/FirstPerson/Lvl1Graybox/4/N0/3LT2XMS63FFM9URTXMRYJO.uasset"
 			]
 		}
 	]
