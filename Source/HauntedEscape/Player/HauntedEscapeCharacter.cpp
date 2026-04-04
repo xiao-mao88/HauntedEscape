@@ -39,6 +39,8 @@ AHauntedEscapeCharacter::AHauntedEscapeCharacter()
 
 	GetCapsuleComponent()->SetCapsuleSize(34.0f, 96.0f);
 
+	GetCapsuleComponent()->SetGenerateOverlapEvents(true);
+
 	// Configure character movement
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
 	GetCharacterMovement()->AirControl = 0.5f;
