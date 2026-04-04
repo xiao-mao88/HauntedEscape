@@ -2,6 +2,7 @@
 
 #include "AICharacter/HEEnemyCharacter.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "TimerManager.h"
 #include "HauntedEscape.h"
@@ -10,6 +11,16 @@ AHEEnemyCharacter::AHEEnemyCharacter()
 {
 	// Start at patrol speed; switch to ChaseSpeed via SetChaseSpeed() from the AI controller
 	GetCharacterMovement()->MaxWalkSpeed = PatrolSpeed;
+
+	// The First Person Mesh is inherited from HauntedEscapeCharacter but enemies don't need it
+	// Disable it in the constructor so it never tries to look up the "head" socket
+	if (USkeletalMeshComponent* FPMesh = GetFirstPersonMesh())
+	{
+		FPMesh->SetSkeletalMesh(nullptr);
+		FPMesh->SetHiddenInGame(true);
+		FPMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		FPMesh->Deactivate();
+	}
 }
 
 void AHEEnemyCharacter::BeginPlay()

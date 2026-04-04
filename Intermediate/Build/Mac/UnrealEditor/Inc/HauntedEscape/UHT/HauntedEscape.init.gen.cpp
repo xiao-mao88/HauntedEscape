@@ -31,13 +31,13 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			SingletonFuncArray,
 			UE_ARRAY_COUNT(SingletonFuncArray),
 			PKG_CompiledIn | 0x00000000,
-			0xB470098D,
-			0xC3DDB324,
+			0x62F6E695,
+			0xD9640A3F,
 			METADATA_PARAMS(0, nullptr)
 		};
 		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_HauntedEscape.OuterSingleton, PackageParams);
 	}
 	return Z_Registration_Info_UPackage__Script_HauntedEscape.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_HauntedEscape(Z_Construct_UPackage__Script_HauntedEscape, TEXT("/Script/HauntedEscape"), Z_Registration_Info_UPackage__Script_HauntedEscape, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xB470098D, 0xC3DDB324));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_HauntedEscape(Z_Construct_UPackage__Script_HauntedEscape, TEXT("/Script/HauntedEscape"), Z_Registration_Info_UPackage__Script_HauntedEscape, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x62F6E695, 0xD9640A3F));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
