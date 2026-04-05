@@ -1,3 +1,9 @@
+# Taken from the git ignore for our class assignments
+/Intermediate/**
+/DerivedDataCache/**
+/Saved/**
+/.vs/**
+
 # Prerequisites
 *.d
 
