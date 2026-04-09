@@ -38,4 +38,15 @@
 *.app
 
 Binaries/
+<<<<<<< HEAD
 Saved/
+=======
+
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+.vsconfig
+>>>>>>> origin/main

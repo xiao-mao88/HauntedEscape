@@ -4,6 +4,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Player/HEPlayerHealthComponent.h"
 #include "TimerManager.h"
 #include "HauntedEscape.h"
 
@@ -26,6 +27,21 @@ AHEEnemyCharacter::AHEEnemyCharacter()
 void AHEEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Bind to capsule overlap to damage player on contact
+	if (UCapsuleComponent* Capsule = GetCapsuleComponent())
+	{
+		UE_LOG(LogHauntedEscape, Warning, TEXT("Enemy BeginPlay: Binding overlap event to capsule"));
+		Capsule->OnComponentBeginOverlap.AddDynamic(this, &AHEEnemyCharacter::OnCapsuleBeginOverlap);
+		
+		// Log capsule collision settings
+		UE_LOG(LogHauntedEscape, Warning, TEXT("Enemy Capsule - Generate Overlap Events: %s"),
+		       Capsule->GetGenerateOverlapEvents() ? TEXT("TRUE") : TEXT("FALSE"));
+	}
+	else
+	{
+		UE_LOG(LogHauntedEscape, Error, TEXT("Enemy BeginPlay: NO CAPSULE COMPONENT FOUND!"));
+	}
 }
 
 void AHEEnemyCharacter::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -101,4 +117,45 @@ void AHEEnemyCharacter::Die()
 void AHEEnemyCharacter::DeferredDestruction()
 {
 	Destroy();
+}
+
+void AHEEnemyCharacter::OnCapsuleBeginOverlap(
+	UPrimitiveComponent* OverlappedComponent,
+	AActor* OtherActor,
+	UPrimitiveComponent* OtherComp,
+	int32 OtherBodyIndex,
+	bool bFromSweep,
+	const FHitResult& SweepResult)
+{
+	UE_LOG(LogHauntedEscape, Warning, TEXT("Enemy overlap triggered with: %s"), *GetNameSafe(OtherActor));
+	
+	// Don't do anything if this enemy is already dead
+	if (bIsDead)
+	{
+		UE_LOG(LogHauntedEscape, Log, TEXT("Enemy is dead, ignoring overlap"));
+		return;
+	}
+
+	// Check if we hit the player
+	if (OtherActor && OtherActor->Tags.Contains(FName("Player")))
+	{
+		UE_LOG(LogHauntedEscape, Warning, TEXT("Enemy touched PLAYER!"));
+		
+		// Try to damage the player via their health component
+		UHEPlayerHealthComponent* PlayerHealth = OtherActor->FindComponentByClass<UHEPlayerHealthComponent>();
+		if (PlayerHealth)
+		{
+			UE_LOG(LogHauntedEscape, Warning, TEXT("Enemy touched player, taking life!"));
+			PlayerHealth->TakeLife();
+		}
+		else
+		{
+			UE_LOG(LogHauntedEscape, Warning, TEXT("Enemy touched player but no HEPlayerHealthComponent found!"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogHauntedEscape, Log, TEXT("Overlapped actor does not have 'Player' tag. Actor tags: %d"),
+		       OtherActor ? OtherActor->Tags.Num() : 0);
+	}
 }
