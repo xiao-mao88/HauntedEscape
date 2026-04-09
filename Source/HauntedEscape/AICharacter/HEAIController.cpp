@@ -62,6 +62,18 @@ void AHEAIController::OnPossess(APawn* InPawn)
 					{
 						bStartupDelayComplete = true;
 						RunBehaviorTree(BehaviorTree);
+						
+						// Set player as target immediately
+						if (UBlackboardComponent* BB = GetBlackboardComponent())
+						{
+							APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+							if (PlayerPawn)
+							{
+								BB->SetValueAsObject(BB_TargetActor, PlayerPawn);
+								UE_LOG(LogHauntedEscape, Log, TEXT("HEAIController: Set player as target"));
+							}
+						}
+						
 						UE_LOG(LogHauntedEscape, Log, TEXT("HEAIController: Startup delay complete, AI activated"));
 					},
 					StartupDelay,
@@ -74,6 +86,17 @@ void AHEAIController::OnPossess(APawn* InPawn)
 			// No delay, start immediately
 			bStartupDelayComplete = true;
 			RunBehaviorTree(BehaviorTree);
+			
+			// Set player as target immediately
+			if (UBlackboardComponent* BB = GetBlackboardComponent())
+			{
+				APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+				if (PlayerPawn)
+				{
+					BB->SetValueAsObject(BB_TargetActor, PlayerPawn);
+					UE_LOG(LogHauntedEscape, Log, TEXT("HEAIController: Set player as target"));
+				}
+			}
 		}
 	}
 
