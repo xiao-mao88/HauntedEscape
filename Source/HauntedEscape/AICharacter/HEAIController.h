@@ -38,6 +38,8 @@ public:
 	/** Blackboard key names — must match BB_HEEnemy exactly. */
 	static const FName BB_TargetActor;
 	static const FName BB_PatrolLocation;
+	static const FName BB_NearestLight;
+	static const FName BB_IsFleeingFromLight;
 
 	AHEAIController();
 
@@ -67,6 +69,40 @@ public:
 	/** Returns the current target, or nullptr if there is none. */
 	UFUNCTION(BlueprintCallable, Category="AI")
 	AActor* GetTargetActor() const { return TargetActor; }
+
+protected:
+
+	// -----------------------------------------------------------------------
+	// Light detection and avoidance
+	// -----------------------------------------------------------------------
+
+	/** How often to check for nearby lights (seconds). */
+	UPROPERTY(EditAnywhere, Category="AI")
+	float LightCheckInterval = 0.2f;
+
+	/** Maximum range to detect lights. */
+	UPROPERTY(EditAnywhere, Category="AI")
+	float LightDetectionRange = 1500.0f;
+
+	/** Minimum light intensity to react to. */
+	UPROPERTY(EditAnywhere, Category="AI")
+	float MinLightIntensity = 0.1f;
+
+	/** Delay before AI starts pursuing at game start (seconds). */
+	UPROPERTY(EditAnywhere, Category="AI")
+	float StartupDelay = 10.0f;
+
+	/** Whether the startup delay has elapsed. */
+	bool bStartupDelayComplete = false;
+
+	/** Timer for startup delay. */
+	FTimerHandle StartupDelayTimer;
+
+	/** Timer for periodic light checks. */
+	FTimerHandle LightCheckTimer;
+
+	/** Check for nearby active light sources and update the Blackboard. */
+	void CheckForLights();
 
 protected:
 

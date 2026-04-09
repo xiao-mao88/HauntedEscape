@@ -82,6 +82,19 @@ public:
 
 protected:
 
+	/** Called when this enemy overlaps with another actor (to damage player). */
+	UFUNCTION()
+	void OnCapsuleBeginOverlap(
+		UPrimitiveComponent* OverlappedComponent,
+		AActor* OtherActor,
+		UPrimitiveComponent* OtherComp,
+		int32 OtherBodyIndex,
+		bool bFromSweep,
+		const FHitResult& SweepResult
+	);
+
+protected:
+
 	// Called when HP reaches zero.
 	void Die();
 
