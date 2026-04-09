@@ -38,3 +38,10 @@
 *.app
 
 Binaries/
+
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
