@@ -45,3 +45,4 @@ Binaries/
 *.vcxproj.filters
 *.vcxproj.user
 .vs/
+.vsconfig
